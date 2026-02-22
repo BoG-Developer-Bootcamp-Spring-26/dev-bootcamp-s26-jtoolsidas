@@ -1,0 +1,123 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6e6e6;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #cfcfcf;
+    padding: 10px 20px;
+}
+
+.nav-right {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-right a {
+    text-decoration: none;
+    background-color: #3f00ff;
+    color: white;
+    padding: 5px 15px;
+}
+
+.logo-icon {
+    width: 35px;
+}
+
+.profile-icon {
+    width: 35px;
+    border-radius: 50%;
+}
+
+.main {
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.google-text {
+    font-size: 60px;
+    margin-bottom: 30px;
+}
+
+.search-container {
+    display: flex;
+    gap: 20px;
+}
+
+.search-container input {
+    width: 500px;
+    padding: 12px;
+    border-radius: 25px;
+    border: 1px solid gray;
+}
+
+.enter-btn {
+    padding: 10px 20px;
+    background-color: #1a73e8;
+    border: none;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border-top: 1px solid black;
+    background-color: #ddd;
+}
+
+.results-header {
+    padding: 30px;
+    text-align: center;
+}
+
+.results-header input {
+    width: 60%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 1px solid gray;
+}
+
+.results-layout {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+}
+
+.left-results {
+    width: 60%;
+}
+
+.result-card {
+    background-color: #d9d9d9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.result-card h3 {
+    color: blue;
+}
+
+.right-card {
+    width: 30%;
+    background-color: #6b003f;
+    padding: 15px;
+    color: white;
+}
+
+.right-card img {
+    width: 100%;
+    margin-bottom: 15px;
+}
